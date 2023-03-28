@@ -61,9 +61,9 @@ pipeline {
                 orchestratorAddress: "${UIPATH_ORCH_URL}",
                 orchestratorTenant: "${UIPATH_ORCH_TENANT_NAME}",
                 folderName: "${UIPATH_ORCH_FOLDER_NAME}",
-                environments: 'ZRTestCases',
+                environments: 'Dev',
                 //credentials: [$class: 'UserPassAuthenticationEntry', credentialsId: 'APIUserKey']
-                credentials: Token(accountName: "${UIPATH_ORCH_LOGICAL_NAME}", credentialsId: 'APIUserKey'), 
+                credentials: Token(accountName: "${UIPATH_ORCH_LOGICAL_NAME}", credentialsId: 'wIRwDV9ZBwUB8WtSY2u00FXVjKwCJLZickhHYMs7JCYTj'), 
 				traceLevel: 'None',
 				entryPointPaths: 'Main.xaml'
 	
