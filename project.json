@@ -1,5 +1,5 @@
 {
-  "name": "UiPathJenkinsIntegration",
+  "name": "UiPath_Jenkins",
   "description": "Blank Process",
   "main": "Main.xaml",
   "dependencies": {
